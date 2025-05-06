@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-dark: #252525;
+  --color-text-primary-dark: #fff;
+  --color-text-secondary-dark: rgba(255, 255, 255, 0.5);
+  --color-theme-purple: #6c63ff;
+  --radius-primary: 6px;
+
+  /* hover */
+  --color-theme-purple-hover: #5a54e0;
+}
+
+body {
+  background-color: var(--color-bg-dark);
+  color: var(--color-text-primary-dark);
+  height: 100vh;
+  overflow-x: hidden;
+}
